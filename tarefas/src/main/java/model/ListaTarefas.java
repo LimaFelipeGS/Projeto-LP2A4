@@ -16,7 +16,8 @@ public class ListaTarefas{
     private Long idListaTarefa;
     @Column
     private String nome;
-    @OneToMany(cascade = CascadeType.ALL) //TODO: Necessita correção
+    @ManyToOne(cascade = CascadeType.ALL) //TODO: Necessita correção
+    @JoinColumn(name = "perfil_id")
     @Column
     private List<Tarefa> listaTarefa;
 }

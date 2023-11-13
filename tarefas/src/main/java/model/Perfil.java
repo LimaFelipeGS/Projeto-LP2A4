@@ -1,9 +1,6 @@
 package model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.List;
@@ -18,5 +15,6 @@ public class Perfil{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPerfil;
     @Column
+    @OneToMany(mappedBy = "perfil", cascade = CascadeType.ALL)
     private ListaTarefas listaTarefas;
 }
