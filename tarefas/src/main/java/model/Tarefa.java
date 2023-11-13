@@ -6,13 +6,13 @@ import lombok.*;
 
 import java.util.Date;
 
-@Data
+//@Data
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "tarefa")
-@Entity(name = "tarefa")
+//@Table(name = "tarefa")
+//@Entity(name = "tarefa")
 public class Tarefa{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

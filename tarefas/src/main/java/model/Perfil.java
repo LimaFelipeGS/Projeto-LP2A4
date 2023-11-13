@@ -5,7 +5,7 @@ import lombok.*;
 
 import java.util.List;
 
-@Data
+//@Data
 @Getter
 @Setter
 @AllArgsConstructor
@@ -15,6 +15,6 @@ public class Perfil{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPerfil;
     @Column
-    @OneToMany(mappedBy = "perfil", cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL)
     private ListaTarefas listaTarefas;
 }

@@ -5,7 +5,7 @@ import lombok.*;
 
 import java.util.List;
 
-@Data
+//@Data
 @Getter
 @Setter
 @AllArgsConstructor
@@ -16,8 +16,8 @@ public class ListaTarefas{
     private Long idListaTarefa;
     @Column
     private String nome;
-    @ManyToOne(cascade = CascadeType.ALL) //TODO: Necessita correção
-    @JoinColumn(name = "perfil_id")
+//    @ManyToOne(cascade = CascadeType.ALL) //TODO: Necessita correção
+//    @JoinColumn(name = "perfil_id")
     @Column
     private List<Tarefa> listaTarefa;
 }

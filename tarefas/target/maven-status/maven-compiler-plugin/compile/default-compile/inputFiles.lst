@@ -1,0 +1,13 @@
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/controller/PerfilController.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/dto/TarefaRequestDTO.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/controller/ListaTarefaController.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/model/Perfil.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/model/ListaTarefas.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/ServletInitializer.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/model/Tarefa.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/controller/TarefaController.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/TarefasApplication.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/dto/TarefaResponseDTO.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/repository/ListaTarefasRepository.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/repository/TarefaRepository.java
+/home/estudante1/Documentos/GitHub/LimaFelipeGS/Projeto-LP2A4/tarefas/src/main/java/controller/MainController.java
