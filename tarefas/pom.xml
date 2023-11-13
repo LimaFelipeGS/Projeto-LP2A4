@@ -67,6 +67,11 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>11.0.16</version>
+			</plugin>
 		</plugins>
 	</build>
 
