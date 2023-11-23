@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="user-info">
+            <!-- Assume you have a variable or a way to dynamically get the username -->
+            <span>Bem vindo, John Doe!</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="tasks">
+            <h2>Tarefas</h2>
+            <ul>
+                <!-- Tasks will be dynamically populated here -->
+            </ul>
+            <button id="addTaskBtn" onclick="openModal('taskModal')">Adicionar Tarefa</button>
+        </section>
+
+        <section class="lists">
+            <h2>Listas</h2>
+            <ul>
+                <!-- Lists will be dynamically populated here -->
+            </ul>
+            <button id="addListBtn" onclick="openModal('listModal')">Adicionar Lista</button>
+        </section>
+    </main>
+
+    <!-- Task Modal -->
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('taskModal')">&times;</span>
+            <!-- Content of the task modal goes here -->
+        </div>
+    </div>
+
+    <!-- List Modal -->
+    <div id="listModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('listModal')">&times;</span>
+            <!-- Content of the list modal goes here -->
+        </div>
+    </div>
+
+    <script>
+        // Function to open the modal
+        function openModal(modalId) {
+            var modal = document.getElementById(modalId);
+            modal.style.display = "block";
+        }
+
+        // Function to close the modal
+        function closeModal(modalId) {
+            var modal = document.getElementById(modalId);
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
