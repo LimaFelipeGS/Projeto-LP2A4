@@ -1,11 +1,2 @@
-controller/PerfilController.class
-model/Tarefa.class
-dto/TarefaResponseDTO.class
-model/ListaTarefas.class
-model/Perfil.class
-repository/ListaTarefasRepository.class
-dto/TarefaRequestDTO.class
-controller/ListaTarefaController.class
-repository/TarefaRepository.class
-controller/MainController.class
-controller/TarefaController.class
+br/efas/tarefas/dto/UsuarioComumResponseDTO.class
+br/efas/tarefas/dto/UsuarioComumRequestDTO.class
