@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
-      <change beforePath="$PROJECT_DIR$/tarefas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tarefas/src/main" />
