@@ -35,7 +35,7 @@ public class Tarefa{
     @Column
     private String descricao;
 
-    @ManyToMany(mappedBy = "tarefas")
+    @ManyToMany(mappedBy = "tarefas", cascade = CascadeType.REMOVE)
     @JsonIgnore
     private List<Usuario> usuarios;
 

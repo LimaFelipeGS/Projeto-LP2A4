@@ -5,39 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
-      <change afterPath="$PROJECT_DIR$/.idea/Projeto-LP2A4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/CriarTarefaController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/ListaTarefas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/UsuarioComum.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/UsuarioComum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/ListaTarefasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/ListaTarefasRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/TarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/TarefaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasRequestDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/ListaTarefas.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/ListaTarefas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/UsuarioComum.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/UsuarioComum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/criarTarefa.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/entrada.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/erro500.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/novo.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +67,14 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main",
+    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/tarefas/src/main/java/br/efas" />
+      <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/tarefas/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

@@ -29,7 +29,7 @@ public class Usuario {
 //    @JsonIgnore
     private UsuarioComum usuarioComum;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "usuario_tarefa",
             joinColumns = @JoinColumn(name = "usuario_id"),

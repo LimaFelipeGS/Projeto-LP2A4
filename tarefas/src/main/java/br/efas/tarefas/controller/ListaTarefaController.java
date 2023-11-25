@@ -10,8 +10,11 @@ import br.efas.tarefas.repository.ListaTarefasRepository;
 import br.efas.tarefas.repository.TarefaRepository;
 import br.efas.tarefas.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.LineNumberInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -67,27 +70,39 @@ public class ListaTarefaController {
         }
 
     }
-//
-////    @PutMapping("/{id}")
-////    public void editarListaTarefas(@PathVariable Long id, @RequestBody ListaTarefasRequestDTO data) {
-////        ListaTarefas listaTarefas = listaTarefasRepository.findById(id).orElse(null);
-////
-////        if (listaTarefas != null) {
-////            // Ajuste conforme os campos reais no ListaTarefasRequestDTO
-////            listaTarefas.setNome(data.nome);
-////            listaTarefas.setPerfil(UsuarioRepository.findById(data.perfil).orElse(null));
-////            // Adicione aqui os campos adicionais que precisam ser atualizados
-////
-////            listaTarefasRepository.save(listaTarefas);
-////        }
-////    }
-//
-//
-//    @DeleteMapping("/{id}")
-//    public void deleteListaTarefas(@PathVariable Long id) {
-//        listaTarefasRepository.deleteById(id);
-//    }
-//
+
+    @PutMapping("/{id}")
+    public ResponseEntity<String> editarListaTarefas(@PathVariable Long id, @RequestBody ListaTarefasRequestDTO data) {
+        Optional<ListaTarefas> optionalListaTarefas = listaTarefasRepository.findById(id);
+
+        if (optionalListaTarefas.isPresent()) {
+            ListaTarefas listaTarefas = optionalListaTarefas.get();
+
+            // Verifica se o nome foi fornecido no DTO e o atualiza se necessário
+            if (data.nome() != null) {
+                listaTarefas.setNome(data.nome());
+            }
+            // Salva as alterações no repositório
+            listaTarefasRepository.save(listaTarefas);
+
+            return ResponseEntity.ok("Lista de Tarefas atualizada com sucesso");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Lista de Tarefas não encontrada");
+        }
+    }
+
+
+
+    @DeleteMapping("/{id}")
+    public void deleteListaTarefas(@PathVariable Long id) {
+        List <Usuario> usuarios = usuarioRepository.findByListasTarefasId(id);
+        for (Usuario usuario: usuarios){
+            usuario.setListasTarefas(null);
+            usuarioRepository.save(usuario);
+        }
+        listaTarefasRepository.deleteById(id);
+    }
+
     @GetMapping("/{id}")
     public Optional<ListaTarefas> findListaTarefas(@PathVariable Long id) {
         return listaTarefasRepository.findById(id);
