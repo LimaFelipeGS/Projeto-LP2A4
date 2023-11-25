@@ -1,6 +1,7 @@
 package br.efas.tarefas.model;
 
 import br.efas.tarefas.dto.UsuarioRequestDTO;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,6 +23,7 @@ public class UsuarioComum {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "usuario_id")
+    @JsonIgnore
     private Usuario usuario;
 
 

@@ -2,6 +2,7 @@ package br.efas.tarefas.model;
 
 
 import br.efas.tarefas.dto.UsuarioRequestDTO;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,6 +26,7 @@ public class Usuario {
     private String senha;
 
     @OneToOne(mappedBy = "usuario", cascade = CascadeType.ALL)
+//    @JsonIgnore
     private UsuarioComum usuarioComum;
 
     @ManyToMany

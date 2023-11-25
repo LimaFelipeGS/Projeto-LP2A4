@@ -1,5 +1,6 @@
 package br.efas.tarefas.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,9 +23,11 @@ public class ListaTarefas{
     private String nome;
 
     @ManyToMany(mappedBy = "listasTarefas") // nomes de entidade e mappedBy igual
+    @JsonIgnore
     private List<Usuario> usuarios;
 
     @OneToMany(mappedBy = "listaTarefas", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<Tarefa> tarefas;
 
     public ListaTarefas(String nome, List<Usuario> usuarios, List<Tarefa> tarefas) {

@@ -68,6 +68,7 @@ public class UsuarioController {
 
     @DeleteMapping("/{id}")
     public void deleteUsuario(@PathVariable Long id) { usuarioRepository.deleteById(id);}
+
     @GetMapping("/{id}")
     public ResponseEntity<UsuarioResponseDTO> findUsuario(@PathVariable Long id) {
         Optional<Usuario> usuario = usuarioRepository.findById(id);
@@ -75,4 +76,23 @@ public class UsuarioController {
         return usuario.map(value -> new ResponseEntity<>(new UsuarioResponseDTO(value), HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
+// Autenticação
+    @PostMapping("/login")
+    public ResponseEntity autenticarUsuario(@RequestBody UsuarioRequestDTO data) {
+        // Busca o usuário pelo e-mail
+        Usuario usuario = usuarioRepository.findByEmail(data.email());
+        // Verifica se o usuário existe e a senha está correta
+        usuario.setUsuarioComum(null) ;
+       if (usuario != null){
+           if (data.senha().equals(usuario.getSenha())){
+               System.out.println("teste1 login");
+               return ResponseEntity.status(HttpStatus.OK).body("Operação bem-sucedida");
+           }
+       }
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Algo deu errado");
+    }
+
+
+
+
 }

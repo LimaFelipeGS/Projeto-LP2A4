@@ -1,6 +1,7 @@
 package br.efas.tarefas.model;
 
 import br.efas.tarefas.dto.TarefaRequestDTO;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -35,6 +36,7 @@ public class Tarefa{
     private String descricao;
 
     @ManyToMany(mappedBy = "tarefas")
+    @JsonIgnore
     private List<Usuario> usuarios;
 
     @ManyToOne
