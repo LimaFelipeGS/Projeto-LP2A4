@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/criarTarefa.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/entrada.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/erro500.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/novo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/cadastro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/styles/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/CriarTarefaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +58,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2XzYMIGcLtebBsL8R0xcUO6Un4H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -65,10 +71,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/chase/OneDrive/Documents/Projeto-LP2A4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,7 +96,7 @@
       <recent name="$PROJECT_DIR$/tarefas/src/main/webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.tarefas [jetty:run]">
+  <component name="RunManager" selected="JavaScript Debug.dashboard.html">
     <configuration name="TarefasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.efas.tarefas.TarefasApplication" />
       <module name="tarefas" />
@@ -96,12 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto-LP2A4/tarefas/src/main/html/dashboard.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto-LP2A4/tarefas/src/main/html/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="tarefas [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -114,6 +135,9 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/tarefas" />
           </MavenRunnerParameters>
@@ -121,8 +145,17 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TarefasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tarefas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.efas.tarefas.TarefasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.dashboard.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="Maven.tarefas [jetty:run]" />
         <item itemvalue="Application.TarefasApplication" />
       </list>
@@ -136,8 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699633330927</updated>
+      <workItem from="1701035734675" duration="3199000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

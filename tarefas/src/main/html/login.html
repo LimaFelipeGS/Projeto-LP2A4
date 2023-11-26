@@ -2,24 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <script src="../script/login.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="styles/login.css">
+    <title>Login</title>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Gerenciador</h2>
-        <form action="#" method="post">
-            <input type="text" id="username" name="username" placeholder="Nome de Usuário" required>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <!--formulário de cadastro-->
+            <form method="post">
+                <h1>Criar conta</h1>
+                <input type="text" class="nome" placeholder="Nome" id="name" name="name" required>
+                <input type="text" class="email "placeholder="E-mail" id="email" name="email" required>
+                <input type="password" class="senha" placeholder="Senha" id="password" name="password" required>
+                <button type="submit" value="cadastrar">Cadastrar</button>
+            </form>
 
-            
-            <input type="password" id="password" name="password" placeholder="Senha" required>
-            <button type="submit">Login</button>
-        </form>
-
-        <a href="cadastro.html" class="register-link">Não possui cadastro?</a>
+        </div>
+        <div class="form-container sign-in">
+            <!--formulário de login-->
+            <form method="post">
+                <h1>Login</h1>
+                <input type="text" class="loginEmail" placeholder="E-mail" id="loginEmail" name="loginEmail" required>
+                <input type="password" class="loginPassword" placeholder="Senha" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                    <!--texto na tela de cadastro-->
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem vindo!</h1>
+                    <p>Já tem uma conta? Clique aqui em baixo para logar!</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                    <!--texto na tela de login-->
+                <div class="toggle-panel toggle-right">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Não tem conta ainda? Clique aqui em baixo para se cadastrar!</p>
+                    <button class="hidden" id="register">Cadastrar</button> 
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="../script/login.js"></script>
+    <script src="../script/cadastro.js"></script>
 </body>
 </html>
+<!--Página escrita por Ana Paula-->

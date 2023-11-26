@@ -82,3 +82,50 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* Styles for the Task Modal */
+#taskModal .modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 75%;
+}
+
+#taskModal .close{
+    align-self: self-end;
+}
+
+#taskName{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#taskDescription{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#taskList{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 53%;
+    min-width: 53%;
+}
+
+#taskDate{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+    min-width: 50%;
+}

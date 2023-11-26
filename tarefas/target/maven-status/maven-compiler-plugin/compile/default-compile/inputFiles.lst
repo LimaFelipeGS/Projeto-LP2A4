@@ -1,23 +1,22 @@
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasResponseDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/servlets/SessionServlets.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/ServletInitializer.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumResponseDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/repository/TarefaRepository.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioComumRepository.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioRequestDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/controller/CriarTarefaController.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/model/UsuarioComum.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/TarefasApplication.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/TarefaRequestDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasRequestDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/repository/ListaTarefasRepository.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/model/ListaTarefas.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/TarefaResponseDTO.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java
-/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumRequestDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\UsuarioComumRequestDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\ListaTarefasRequestDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\ServletInitializer.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\controller\ListaTarefaController.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\UsuarioRequestDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\ListaTarefasResponseDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\TarefaRequestDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\controller\TarefaController.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\repository\UsuarioComumRepository.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\servlets\SessionServlets.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\TarefasApplication.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\model\Tarefa.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\repository\UsuarioRepository.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\model\ListaTarefas.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\model\UsuarioComum.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\model\Usuario.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\TarefaResponseDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\UsuarioResponseDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\controller\UsuarioController.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\dto\UsuarioComumResponseDTO.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\repository\ListaTarefasRepository.java
+C:\Users\chase\OneDrive\Documents\Projeto-LP2A4\tarefas\src\main\java\br\efas\tarefas\repository\TarefaRepository.java
