@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #512da8;
     color: #fff;
     padding: 30px;
 }
@@ -35,7 +37,7 @@ ul {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #512da8;
     color: white;
     padding: 10px;
     border: none;
@@ -45,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #512da8;
 }
 
 /* Modal styles */
@@ -65,7 +67,7 @@ button:hover {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #512da8;
     width: 80%;
 }
 
