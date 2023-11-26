@@ -6,15 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/criarTarefa.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/entrada.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/erro500.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/webapp/view/novo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/TarefasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/TarefasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/CriarTarefaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/TarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/TarefaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/ListaTarefasResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/TarefaRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/TarefaRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/TarefaResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/TarefaResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioComumRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioComumRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioComumResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioComumResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/dto/UsuarioResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/ListaTarefas.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/ListaTarefas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/UsuarioComum.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/UsuarioComum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/ListaTarefasRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/ListaTarefasRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/TarefaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/TarefaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioComumRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioComumRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/servlets/SessionServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/servlets/SessionServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/target/test-classes/br/efas/tarefas/TarefasApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/test-classes/br/efas/tarefas/TarefasApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +89,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas",
+    "last_opened_file_path": "/home/suanne/Documentos/IFSP/quarto semestre/LP2/AvaliaçãoFinal/Projeto-LP2A4/tarefas/src/main/java/br/efas/tarefas/controller",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller" />
       <recent name="$PROJECT_DIR$/tarefas/src/main/java/br/efas" />
       <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/tarefas/src/main" />

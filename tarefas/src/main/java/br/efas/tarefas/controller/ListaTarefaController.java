@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 @RestController
+@CrossOrigin("*")
 @RequestMapping("listaTarefas")
 public class ListaTarefaController {
     @Autowired
@@ -29,82 +30,96 @@ public class ListaTarefaController {
     @Autowired
     private TarefaRepository tarefaRepository;
 
-
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void addListaTarefas(@RequestBody ListaTarefasRequestDTO data) {
-        // Inicialize as listas como nulas
-        List<Tarefa> tarefas = null;
-        List<Usuario> usuarios = null;
+    public ResponseEntity<String> addListaTarefas(@RequestBody ListaTarefasRequestDTO data) {
+        try {
+            List<Tarefa> tarefas = null;
+            List<Usuario> usuarios = null;
 
-        // Verifique se data.tarefas() não é nulo antes de tentar carregar do repositório
-        if (data.tarefas() != null) {
-            tarefas = tarefaRepository.findAllById(data.tarefas());
-        }
-
-        // Verifique se data.usuarios() não é nulo antes de tentar carregar do repositório
-        if (data.usuarios() != null) {
-            usuarios = usuarioRepository.findAllById(data.usuarios());
-        }
-
-        // Crie a ListaTarefas usando as tarefas e usuários carregados
-        ListaTarefas listaTarefas = new ListaTarefas(data.nome(), usuarios, tarefas);
-
-        // Salve a ListaTarefas no banco de dados
-        ListaTarefas savedListaTarefa = listaTarefasRepository.save(listaTarefas);
-
-        if(usuarios != null) {
-            for (Usuario usuario : usuarios){
-                usuario.setUsuarioComum(null);
-                List<ListaTarefas> userListasTarefas = usuario.getListasTarefas();
-                userListasTarefas.add(savedListaTarefa);
-                usuario.setListasTarefas(userListasTarefas);
-                usuarioRepository.save(usuario);
+            if (data.tarefas() != null) {
+                tarefas = tarefaRepository.findAllById(data.tarefas());
             }
-        }
-        if(tarefas != null) {
-            for (Tarefa tarefa : tarefas){
-                tarefa.setListaTarefas(savedListaTarefa);
-                tarefaRepository.save(tarefa);
+            if (data.usuarios() != null) {
+                usuarios = usuarioRepository.findAllById(data.usuarios());
             }
-        }
+            ListaTarefas listaTarefas = new ListaTarefas(data.nome(), usuarios, tarefas);
+            ListaTarefas savedListaTarefa = listaTarefasRepository.save(listaTarefas);
+            if (usuarios != null) {
+                for (Usuario usuario : usuarios) {
+                    usuario.setUsuarioComum(null);
+                    List<ListaTarefas> userListasTarefas = usuario.getListasTarefas();
+                    userListasTarefas.add(savedListaTarefa);
+                    usuario.setListasTarefas(userListasTarefas);
+                    usuarioRepository.save(usuario);
+                }
+            }
+            if (tarefas != null) {
+                for (Tarefa tarefa : tarefas) {
+                    tarefa.setListaTarefas(savedListaTarefa);
+                    tarefaRepository.save(tarefa);
+                }
+            }
 
+            return ResponseEntity.status(HttpStatus.CREATED).body("Lista de tarefas adicionada com sucesso.");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro ao adicionar a lista de tarefas: " + e.getMessage());
+        }
     }
+
 
     @PutMapping("/{id}")
     public ResponseEntity<String> editarListaTarefas(@PathVariable Long id, @RequestBody ListaTarefasRequestDTO data) {
-        Optional<ListaTarefas> optionalListaTarefas = listaTarefasRepository.findById(id);
+        try {
+            Optional<ListaTarefas> optionalListaTarefas = listaTarefasRepository.findById(id);
 
-        if (optionalListaTarefas.isPresent()) {
-            ListaTarefas listaTarefas = optionalListaTarefas.get();
+            if (optionalListaTarefas.isPresent()) {
+                ListaTarefas listaTarefas = optionalListaTarefas.get();
 
-            // Verifica se o nome foi fornecido no DTO e o atualiza se necessário
-            if (data.nome() != null) {
-                listaTarefas.setNome(data.nome());
+                // Verifica se o nome foi fornecido no DTO e o atualiza se necessário
+                if (data.nome() != null) {
+                    listaTarefas.setNome(data.nome());
+                }
+                // Salva as alterações no repositório
+                listaTarefasRepository.save(listaTarefas);
+
+                return ResponseEntity.ok("Lista de Tarefas atualizada com sucesso");
+            } else {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Lista de Tarefas não encontrada");
             }
-            // Salva as alterações no repositório
-            listaTarefasRepository.save(listaTarefas);
-
-            return ResponseEntity.ok("Lista de Tarefas atualizada com sucesso");
-        } else {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Lista de Tarefas não encontrada");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro ao editar a lista de tarefas: " + e.getMessage());
         }
     }
-
-
-
     @DeleteMapping("/{id}")
-    public void deleteListaTarefas(@PathVariable Long id) {
-        List <Usuario> usuarios = usuarioRepository.findByListasTarefasId(id);
-        for (Usuario usuario: usuarios){
-            usuario.setListasTarefas(null);
-            usuarioRepository.save(usuario);
+    public ResponseEntity<String> deleteListaTarefas(@PathVariable Long id) {
+        try {
+            List<Usuario> usuarios = usuarioRepository.findByListasTarefasId(id);
+
+            for (Usuario usuario : usuarios) {
+                usuario.setListasTarefas(null);
+                usuarioRepository.save(usuario);
+            }
+            listaTarefasRepository.deleteById(id);
+            return ResponseEntity.ok("Lista de Tarefas deletada com sucesso");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Erro ao deletar a lista de tarefas: " + e.getMessage());
         }
-        listaTarefasRepository.deleteById(id);
     }
 
     @GetMapping("/{id}")
-    public Optional<ListaTarefas> findListaTarefas(@PathVariable Long id) {
-        return listaTarefasRepository.findById(id);
+    public ResponseEntity<ListaTarefas> findListaTarefas(@PathVariable Long id) {
+        try {
+            Optional<ListaTarefas> listaTarefas = listaTarefasRepository.findById(id);
+
+            return listaTarefas.map(value -> ResponseEntity.ok().body(value))
+                    .orElseGet(() -> ResponseEntity.notFound().build());
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .build();
+        }
     }
+
+
 }
