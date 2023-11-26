@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/cadastro.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/styles/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/CriarTarefaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/controller/ListaTarefaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Tarefa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/classes/br/efas/tarefas/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +46,30 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2XzYMIGcLtebBsL8R0xcUO6Un4H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/chase/OneDrive/Documents/Projeto-LP2A4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chase/OneDrive/Documents/Projeto-LP2A4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tarefas/src/main/java/br/efas" />
@@ -111,6 +96,9 @@
       </method>
     </configuration>
     <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto-LP2A4/tarefas/src/main/html/dashboard.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto-LP2A4/tarefas/src/main/html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto-LP2A4/tarefas/src/main/html/login.html" useBuiltInWebServerPort="true">
@@ -155,6 +143,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.dashboard.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="Maven.tarefas [jetty:run]" />
         <item itemvalue="Application.TarefasApplication" />
@@ -170,6 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699633330927</updated>
       <workItem from="1701035734675" duration="3199000" />
+      <workItem from="1701040135709" duration="1067000" />
     </task>
     <servers />
   </component>
