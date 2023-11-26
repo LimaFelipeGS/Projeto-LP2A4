@@ -22,7 +22,7 @@ function cadastrar(Inome, Iemail, Isenha){
                 email: Iemail.value,
                 senha: Isenha.value})
         })
-        .then(function (res){console.log(res)})
+        .then(function (res){console.log(res.text())})
         .catch(function (res){console.log(res)})
 
 };
