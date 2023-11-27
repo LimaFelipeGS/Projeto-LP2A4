@@ -3,7 +3,7 @@
     var taskDateTime = document.getElementById("taskDate").value;
     var taskList = document.getElementById("taskList").value;
     var listName = document.getElementById("listName").value;
-
+    var selectedDate = new Date(taskDateTime);
     function confirmTask(taskName, taskDescription, taskDate, taskList) {
     // Perform further actions, e.g., store data, update UI, etc.
     fetch("http://localhost:8080/tarefa",
@@ -17,7 +17,8 @@
                 nome: taskName.value,
                 descricao: taskDescription.value,
                 data: taskDateTime.value,
-                horario: taskDateTime.value,
+                //data: selectedDate.toISOString().split("T")[0],
+                //horario: selectedDate.toTimeString().split(" ")[0],
                 listaTarefa: taskList.value
             //TODO: Definitivamente errado na parte de data e horario.
         })

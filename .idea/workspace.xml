@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699633330927</updated>
       <workItem from="1701035734675" duration="3199000" />
-      <workItem from="1701040135709" duration="2103000" />
+      <workItem from="1701040135709" duration="3345000" />
     </task>
     <servers />
   </component>
