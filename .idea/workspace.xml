@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9eaf873-2c71-4865-92c6-77602b0e99ff" name="Changes" comment="dependência springsecurity">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/cadastro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/script/cadastro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/ListaTarefaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/TarefaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/ListaTarefasResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/TarefaRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/TarefaRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/TarefaResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/TarefaResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioComumResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/dto/UsuarioResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/ListaTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas/src/main/java/br/efas/tarefas/model/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +90,7 @@
       <recent name="$PROJECT_DIR$/tarefas/src/main/webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.html">
+  <component name="RunManager" selected="Application.TarefasApplication">
     <configuration name="TarefasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.efas.tarefas.TarefasApplication" />
       <module name="tarefas" />
@@ -109,7 +119,6 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
-            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -121,9 +130,6 @@
             <option name="pomFileName" value="pom.xml" />
             <option name="profilesMap">
               <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/tarefas" />
@@ -141,9 +147,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.dashboard.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Maven.tarefas [jetty:run]" />
         <item itemvalue="Application.TarefasApplication" />
       </list>

@@ -7,6 +7,9 @@ import br.efas.tarefas.model.UsuarioComum;
 import java.util.List;
 
 
+/**
+ * Data Transfer Object (DTO) para representar informações de resposta relacionadas à entidade Usuario.
+ */
 public record UsuarioResponseDTO(Long id, String email, String senha, String nome, List<ListaTarefas> listaTarefa, List<Tarefa> tarefas) {
     public UsuarioResponseDTO(Usuario usuario){
         this(
@@ -19,3 +22,4 @@ public record UsuarioResponseDTO(Long id, String email, String senha, String nom
         );
     }
 }
+

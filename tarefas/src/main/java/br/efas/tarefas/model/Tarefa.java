@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -27,10 +28,7 @@ public class Tarefa{
     private String nome;
 
     @Column
-    private Date data;
-
-    @Column
-    private String horario;
+    private LocalDateTime data;
 
     @Column
     private String descricao;
@@ -47,7 +45,7 @@ public class Tarefa{
     public Tarefa(TarefaRequestDTO data) {
         this.nome = data.nome();
         this.data = data.data();
-        this.horario = data.horario();
+//        this.horario = data.horario();
         this.descricao = data.descricao();
     }
 }

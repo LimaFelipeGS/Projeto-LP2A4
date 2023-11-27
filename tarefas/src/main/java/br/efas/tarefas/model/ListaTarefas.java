@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-//@Data
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,7 +21,7 @@ public class ListaTarefas{
     @Column
     private String nome;
 
-    @ManyToMany(mappedBy = "listasTarefas") // nomes de entidade e mappedBy igual
+    @ManyToMany(mappedBy = "listasTarefas")
     @JsonIgnore
     private List<Usuario> usuarios;
 
