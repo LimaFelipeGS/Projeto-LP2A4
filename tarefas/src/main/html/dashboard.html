@@ -11,25 +11,26 @@
         <header>
             <div class="user-info">
             <!-- Assume you have a variable or a way to dynamically get the username -->
-                <span>Bem vindo, John Doe!</span>
+                <span>Bem vindo, <span id="userName">John Doe!</span></span>
             </div>
         </header>
 
         <main>
             <section class="tasks">
                 <h2>Tarefas</h2>
-                <ul>
-                <!-- Tasks will be dynamically populated here -->
-                </ul>
                 <button id="addTaskBtn" onclick="openModal('taskModal')">Adicionar Tarefa</button>
+                <div id="taskListDiv">
+                    <!-- Cards will be dynamically populated here -->
+                </div>
+              
             </section>
 
             <section class="lists">
                 <h2>Listas</h2>
-                <ul>
-                <!-- Lists will be dynamically populated here -->
-                </ul>
                 <button id="addListBtn" onclick="openModal('listModal')">Adicionar Lista</button>
+                <div id="listsDiv">
+                    <!-- Cards will be dynamically populated here -->
+                </div>
             </section>
         </main>
 
@@ -61,6 +62,7 @@
         </div>
 
         <script>
+            console.log(sessionStorage.getItem('userId'));
             // Function to open the modal
             function openModal(modalId) {
                 var modal = document.getElementById(modalId);
@@ -73,6 +75,7 @@
                 modal.style.display = "none";
             }
         </script>
+        <script src="../script/dashboard.js"></script>
     </body>
 </html>
 <!--pagina escrita por Eduardo -->
