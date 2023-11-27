@@ -1,4 +1,4 @@
-
+//Código Feito por Suanne, Eduardo e Ana
 function cadastrar(Inome, Iemail, Isenha){
 
     console.log(Inome)

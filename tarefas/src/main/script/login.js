@@ -1,3 +1,4 @@
+//Código Feito por Suanne, Eduardo e Ana
 //código que modifica a pagina de login e cadastro
 
 const container = document.getElementById('container');

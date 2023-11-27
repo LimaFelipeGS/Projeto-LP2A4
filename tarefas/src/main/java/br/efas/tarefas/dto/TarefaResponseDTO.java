@@ -4,6 +4,7 @@ import br.efas.tarefas.model.Tarefa;
 
 import java.time.LocalDateTime;
 import java.util.Date;
+// Código feito por Suanne, Felipe
 
 /**
  * Data Transfer Object (DTO) para representar informações de resposta relacionadas à entidade Tarefa.

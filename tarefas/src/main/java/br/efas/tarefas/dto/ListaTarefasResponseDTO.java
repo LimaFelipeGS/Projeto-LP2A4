@@ -2,7 +2,7 @@ package br.efas.tarefas.dto;
 
 import br.efas.tarefas.model.ListaTarefas;
 import java.util.List;
-
+// Código feito por Suanne
 /**
  * Data Transfer Object (DTO) para representar informações da entidade ListaTarefas em respostas.
  */

@@ -7,7 +7,7 @@ import org.hibernate.dialect.function.TruncFunction;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
-
+// Código feito por Suanne, Felipe
 /**
  * Data Transfer Object (DTO) para representar informações necessárias para criar ou editar uma Tarefa.
  */

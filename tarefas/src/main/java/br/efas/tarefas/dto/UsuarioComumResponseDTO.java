@@ -1,7 +1,7 @@
 package br.efas.tarefas.dto;
 
 import br.efas.tarefas.model.UsuarioComum;
-
+// Código feito por Suanne
 /**
  * Data Transfer Object (DTO) para representar informações de resposta relacionadas à entidade UsuarioComum.
  */

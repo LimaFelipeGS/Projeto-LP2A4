@@ -5,7 +5,7 @@ import br.efas.tarefas.model.Tarefa;
 import br.efas.tarefas.model.Usuario;
 import br.efas.tarefas.model.UsuarioComum;
 import java.util.List;
-
+// Código feito por Suanne
 
 /**
  * Data Transfer Object (DTO) para representar informações de resposta relacionadas à entidade Usuario.

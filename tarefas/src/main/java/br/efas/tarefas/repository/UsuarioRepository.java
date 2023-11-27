@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
-
+// Código feito por Suanne
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
     Usuario findByEmail(String email);
     List<Usuario> findByListasTarefasId(Long tarefas_id);

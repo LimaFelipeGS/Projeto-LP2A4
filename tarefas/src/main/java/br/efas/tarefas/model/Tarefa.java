@@ -11,7 +11,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
-
+// Código feito por Suanne, Felipe, Eduardo
 //@Data
 @Getter
 @Setter
