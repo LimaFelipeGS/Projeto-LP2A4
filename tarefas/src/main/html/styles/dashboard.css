@@ -1,23 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
     text-align: center;
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: #512da8;
+    background-color: #5c6bc0;
     color: #fff;
     padding: 30px;
 }
-
 .user-info {
     float: right;
 }
-
 main {
     display: flex;
     justify-content: space-around;
@@ -27,30 +22,27 @@ main {
 section {
     max-width: 300px;
     border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 100px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 button {
     background-color: #512da8;
     color: white;
     padding: 10px;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 button:hover {
-    background-color: #512da8;
+    background-color: #5c6bc0;
 }
-
-/* Modal styles */
 .modal {
     display: none;
     position: fixed;
@@ -67,7 +59,7 @@ button:hover {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #512da8;
+    border: 1px solid #888;
     width: 80%;
 }
 
@@ -84,7 +76,7 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*escrita até aqui por ana paula*/
 
 /* Styles for the Task Modal */
 #taskModal .modal-content {
